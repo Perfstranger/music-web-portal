@@ -41,6 +41,11 @@ div{
 .header{
   z-index: 40;
 }
+.logo .pg_logo .nav-logo img{
+  height: 90px;
+  left: 120px;
+  top: 15px;
+}
 .nav_menu{
   height: 5em;
 }
