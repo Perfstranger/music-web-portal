@@ -7,12 +7,16 @@
   box-sizing: border-box;;
   font-size: 100%
 }
+a{
+  text-decoration: none;
+}
 body{
     background-color: #22222A !important;
 }
 div{
   display: block;
 }
+
 /*grid system*/
 .grid-bg{
   position: fixed;
@@ -68,5 +72,13 @@ div{
 }
 .header .nav_menu ul li{
   list-style-type: none;
-
+}
+/*about page css*/
+.main-page{
+  width: 100%;
+  height: 100%;
+}
+.main-page .gif-photo img{
+  left: 10%;
+  margin-top: 7%;
 }
