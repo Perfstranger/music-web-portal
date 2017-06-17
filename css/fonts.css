@@ -4,10 +4,10 @@
 	font-family: 'Audimat Mono';
 	src: url('AudimatMono.eot');
 	src: url('AudimatMono.eot?#iefix') format('embedded-opentype'),
-		url('AudimatMono.woff2') format('woff2'),
-		url('AudimatMono.woff') format('woff'),
-		url('AudimatMono.ttf') format('truetype'),
-		url('AudimatMono.svg#AudimatMono') format('svg');
+	src: url('AudimatMono.woff2') format('woff2'),
+	src: url('AudimatMono.woff') format('woff'),
+	src: url('AudimatMono.ttf') format('truetype'),
+	src: url('AudimatMono.svg#AudimatMono') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
