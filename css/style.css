@@ -40,6 +40,7 @@ div{
 /*navigation*/
 .header{
   z-index: 40;
+  height: 6.5em;
 }
 .logo .pg_logo .nav-logo img{
   height: 90px;
@@ -47,7 +48,7 @@ div{
   top: 15px;
 }
 .nav_menu{
-  height: 5em;
+  height: 6.5em;
 }
 .pg_logo{
   z-index: 15;
@@ -58,7 +59,7 @@ div{
 }
 .header .nav_menu ul{
   position: relative;
-  height: 5.9em;
+  height: 6.5em;
 }
 .header .nav_menu ul li a{
   position: absolute;
