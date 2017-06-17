@@ -80,5 +80,15 @@ div{
 }
 .main-page .gif-photo img{
   left: 10%;
-  margin-top: 7%;
+  margin-top: 10%;
+}
+.main-text1{
+  font-size: 100%;
+  left: 6%;
+  margin-top: 12%;
+  color: #cccccc;
+  line-height: 1.5em;
+}
+.slider{
+  display: inline-block;
 }
