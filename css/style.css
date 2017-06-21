@@ -17,6 +17,12 @@ div{
   display: block;
 }
 /*loader*/
+.before-load{
+  display: none;
+}
+.before-load.active{
+  display: block;
+}
 .loadcenter {
     visibility: visible;
     height: 320px;
@@ -312,4 +318,8 @@ li .nav-logo-text .lgrextlink a{
 }
 .slider{
   display: inline-block;
+}
+/*AUTHORIZATION PAGE STYLES*/
+#authorization{
+  background-color: #22222A;
 }

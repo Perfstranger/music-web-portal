@@ -32,70 +32,78 @@
           </svg>
         </div>
       </div>
-    <div class="container-fluid">
-      <div class="grid-bg" style="height:100%;">
-        <div class="grid col-xs-1">
-          <span></span>
+    <div class="before-load">
+        <header class="header navbar-fixed-top">
+          <div class="container-fluid" id="full-nav-bar">
+            <nav class="navbar">
+              <div class="nav_menu">
+                <ul>
+                  <li class="col-xs-offset-1" id="logo">
+                    <a href="#">
+                      <img src="images/logo.svg" height="75" class="d-inline-block align-top logosvg" alt="logo">
+                    </a>
+                  </li>
+                  <li class="col-xs-offset-2">
+                      <div class="nav-logo-text">
+                        <a href="#" class="lgtextlink"><span id="wlogotext">WIRED</span><br>
+                        <span id="lgtextid">Georgian<span class="logo-text"> MODERN MUSIC </span>Portal</span>
+                        </a>
+                      </div>
+                  </li>
+                  <li class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-5 hidden-sm-down">
+                    <a class="menuLink" href="#">INSPIRATION</a>
+                  </li>
+                  <li class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-1 hidden-sm-down">
+                    <a class="menuLink active" href="about.html">ABOUT</a>
+                  </li>
+                  <li class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-1 hidden-sm-down">
+                    <a class="menuLink" href="#">AUTHORIZATION</a>
+                  </li>
+                  <li>
+                  <a href="#"><p><span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-1 hidden-sm-down glyphicon glyphicon-search"></span></p></a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
         </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-1">
-          <span></span>
+        </header>
+        <div class="container-fluid">
+          <div class="grid-bg" style="height:100%;">
+            <div class="grid col-xs-1">
+              <span></span>
+            </div>
+            <div class="grid col-xs-2">
+              <span></span>
+            </div>
+            <div class="grid col-xs-2">
+              <span></span>
+            </div>
+            <div class="grid col-xs-2">
+              <span></span>
+            </div>
+            <div class="grid col-xs-2">
+              <span></span>
+            </div>
+            <div class="grid col-xs-2">
+              <span></span>
+            </div>
+            <div class="grid col-xs-1">
+              <span></span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <header class="header navbar-fixed-top">
-      <div class="container-fluid" id="full-nav-bar">
-        <nav class="navbar">
-          <div class="nav_menu">
-            <ul>
-              <li class="col-xs-offset-1" id="logo">
-                <a href="#">
-                  <img src="images/logo.svg" height="75" class="d-inline-block align-top logosvg" alt="logo">
-                </a>
-              </li>
-              <li class="col-xs-offset-2">
-                  <div class="nav-logo-text">
-                    <a href="#" class="lgtextlink"><span id="wlogotext">WIRED</span><br>
-                    <span id="lgtextid">Georgian<span class="logo-text"> MODERN MUSIC </span>Portal</span>
-                    </a>
-                  </div>
-              </li>
-              <li class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-5 hidden-sm-down">
-                <a class="menuLink" href="#">INSPIRATION</a>
-              </li>
-              <li class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-1 hidden-sm-down">
-                <a class="menuLink active" href="about.html">ABOUT</a>
-              </li>
-              <li class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xs-offset-1 hidden-sm-down">
-                <a class="menuLink" href="#">AUTHORIZATION</a>
-              </li>
-            </ul>
-          </div>
-      </nav>
-    </div>
-    </header>
+
+
 
     <!--loader script-->
     <script>
     $ (function() {
       $(".loadcenter").fadeOut(2000, function() {
-        $(".container-fluid","header").fadeIn(1000);
+        $(".before-load").fadeIn(1000);
       });
     });
+
     </script>
   </body>
 </html>﻿
