@@ -19,31 +19,47 @@
   <title>WIRED</title>
 </head>
   <body>
-    <div class="container-fluid">
-      <div class="grid-bg" style="height:100%;">
-        <div class="grid col-xs-1">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-2">
-          <span></span>
-        </div>
-        <div class="grid col-xs-1">
-          <span></span>
+    <div class="loadcenter">
+        <div class="loadcenter_wrap">
+          <svg class="l1" width="320px" height="320px">
+            <path d="M160,0.5C212.9,53.4,319.5,160,319.5,160 L160,319.5L0.5,160L160,0.5z"></path>
+          </svg>
+          <svg class="l2" width="320px" height="320px">
+            <path d="M160,40.5C184,64.5,279.5 ,160,279.5,160 L160,279.5L40.5,160L160,40.5z"></path>
+          </svg>
+          <svg class="l3" width="320px" height="320px">
+            <path d="M160,80.5c21.7,21.7,79.5,79.5,79.5,79.5 L160,239.5L80.5,160L160,80.5z"></path>
+          </svg>
         </div>
       </div>
-    </div>
+
+      <div class="container-fluid">
+        <div class="grid-bg" style="height:100%;">
+          <div class="grid col-xs-1">
+            <span></span>
+          </div>
+          <div class="grid col-xs-2">
+            <span></span>
+          </div>
+          <div class="grid col-xs-2">
+            <span></span>
+          </div>
+          <div class="grid col-xs-2">
+            <span></span>
+          </div>
+          <div class="grid col-xs-2">
+            <span></span>
+          </div>
+          <div class="grid col-xs-2">
+            <span></span>
+          </div>
+          <div class="grid col-xs-1">
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="before-load">
     <header class="header navbar-fixed-top">
       <div class="container-fluid" id="full-nav-bar">
         <nav class="navbar">
@@ -80,22 +96,69 @@
     </header>
     <div class="main-page">
       <div class="gif-photo">
-        <img src="images/sa.png" class="col-md-5" alt="grid">
+        <div class="col-md-5 gif-1" alt="grid">
+          <div class="grid-wrapper">
+  <div class="moving-grid">
+    <div class="vertical">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <div class="horizontal">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+</div>
+        </div>
       </div>
       <h1 class="main-text1 col-md-6">Inspirational web portal of Georgian modern music and musicians.
         The site was developed for non commercial, inspirational purposes ,
         for popularization Georgian modern music and musicians.
         Under GEOLAB final project. </h1>
-        <ul class="slider">
-          <li><img src="images/slider-btn.svg" alt="slider button"></li>
-          <li><img src="images/slider-btn2.svg" alt="slider button"></li>
-          <li><img src="images/slider-btn2.svg" alt="slider button"></li>
-        </ul>
-
-
     </div>
+  </div>
 
 
 
+  <!--loader script-->
+  <script>
+  $ (function() {
+    $(".loadcenter").fadeOut(2000, function() {
+      $(".before-load").fadeIn(1000);
+    });
+  });
+
+  </script>
+  <audio controls autoplay>
+    <source src="audio/Jesper-Ryom-Pacer.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
   </body>
 </html>﻿
