@@ -16,6 +16,9 @@ body{
 div{
   display: block;
 }
+.geolab{
+  color: #652D88!important;
+}
 /*loader*/
 .before-load{
   display: none;
@@ -297,10 +300,14 @@ li .nav-logo-text .lgrextlink a{
   width: 100%;
   height: 100%;
 }
-.main-page .gif-photo img{
+/*.carousel-inner .item .gif-photo img{
   left: 10%;
   margin-top: 10%;
-}
+}*/
+/*.carousel-inner .item .gif-photo{
+  margin-bottom:5vw!important;
+  padding: 0!important;
+}*/
 .main-text1{
   font-size: 100%;
   left: 6%;
