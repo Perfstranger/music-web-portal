@@ -10,8 +10,15 @@
 a{
   text-decoration: none;
 }
+html{
+  position: relative;
+  height: 100%;
+}
 body{
     background-color: #22222A !important;
+    position: relative;
+    height: 100%;
+    font-family: 'Audimat Mono'!important;
 }
 div{
   display: block;
@@ -254,8 +261,8 @@ header a{
 }
 .lgtextlink{
   display: inline-block;
-  margin-left: -5%!important;
-  margin-top: 2.3%!important;
+  margin-left: -6%!important;
+  margin-top: 1.3%!important;
 }
 li .nav-logo-text .lgrextlink a{
   text-decoration: none!important;
@@ -296,6 +303,25 @@ li .nav-logo-text .lgrextlink a{
   list-style-type: none;
 }
 /*about page css*/
+
+/*slider*/
+#carousel-image-1{
+  margin-top: 6.5%!important;
+  margin-left: 7.7%!important;
+}
+#carousel-caption-1{
+  margin-top: -60%!important;
+  margin-left: 51%!important;
+  text-align: left!important;
+  width: 69%!important;
+  font-size: 1.5em!important;
+}
+#carousel-image-2{
+  margin-left: 50%!important;
+}
+
+
+
 
 /*AUTHORIZATION PAGE STYLES*/
 #authorization{
