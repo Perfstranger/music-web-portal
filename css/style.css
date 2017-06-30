@@ -55,7 +55,7 @@ div{
     z-index: 2;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: #66FFCC;
 }
 .loadcenter svg {
     position: absolute;
@@ -75,7 +75,7 @@ div{
 }
 .loadcenter path {
     fill: none;
-    stroke: #fff;
+    stroke: #66FFCC;
     stroke-width: 1;
     fill: none;
     -webkit-transition: all .3s;
@@ -305,9 +305,13 @@ li .nav-logo-text .lgrextlink a{
 /*about page css*/
 
 /*slider*/
+.carousel-indicators{
+
+}
 #carousel-image-1{
   margin-top: 6.5%!important;
   margin-left: 7.7%!important;
+  border-right: 2px solid #66FFCC;
 }
 #carousel-caption-1{
   margin-top: -60%!important;
@@ -317,9 +321,20 @@ li .nav-logo-text .lgrextlink a{
   font-size: 1.5em!important;
 }
 #carousel-image-2{
-  margin-left: 50%!important;
+  margin-left: 53%!important;
+  margin-top: 14%!important;
+  margin-right: -2%!important;
+  border-left: 2px solid #66FFCC;
 }
+#carousel-caption-2{
+  margin-bottom: 54%!important;
+  margin-left: -87%!important;
+  text-align: left;
+  font-size: 1.5em!important;
+  margin-right: 48%!important;
+  width: 123%!important;
 
+}
 
 
 
