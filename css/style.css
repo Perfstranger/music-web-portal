@@ -348,10 +348,82 @@ li .nav-logo-text .lgrextlink a{
 
 
 /*AUTHORIZATION PAGE STYLES*/
+
 #authorization{
-  background-color: #22222A;
+  background-color:#34515E;
 }
-/*audio maimunoba*/
-audio{
-  visibility: hidden;
+.form-border{
+  left: 50%;
+  margin-top: 23%!important;
+  width: 40%;
+  height: 70%;
+  border: 1px solid #68B0A3;
+  z-index: 200;
+}
+label{
+    color: #66FFCC!important;
+}
+.btn{
+  border-radius: 0!important;
+}
+.register-form{
+  z-index: 500;
+  font-size: 1.2em;
+  font-weight: lighter!important;
+  left: 50%;
+  margin-top: 23%!important;
+  position: absolute;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.regbutton{
+    height: 50px;
+    width: 200px;
+    background-color: #22222A!important;
+    border-radius: 0px;
+    font-size: 18px;
+    color:#68B0A3!important;
+    border: 1px solid #68B0A3!important;
+    margin-bottom: 5px;
+}
+.regbutton:hover{
+    font-size: 20px;
+    color:#68B0A3!important;
+    background-color:#68B0A3;
+    border: 2px solid #68B0A3!important;
+}
+.regbutton:active{
+    color:#68B0A3!important;
+    background-color:#68B0A3;
+}
+.logbutton{
+    height: 50px;
+    width: 200px;
+    background-color:#66FFCC;
+    border-radius: 0px;
+    font-size: 18px;
+    color:white;
+    border: 1px solid #68B0A3!important;
+    margin-bottom: 5px;
+}
+.logbutton:hover{
+  font-size: 20px;
+  color:#68B0A3!important;
+  background-color:#68B0A3;
+  border: 2px solid #68B0A3!important;
+}
+.logbutton:active{
+  color:#68B0A3!important;
+  background-color:#68B0A3!important;
+}
+.register-form label{
+    color: aliceblue;
+}
+.register-form input{
+    margin-bottom: 5px;
+    width: 430px;
+    height: 40px;
+    border-radius: 0px;
+    color: #66FFCC;
 }

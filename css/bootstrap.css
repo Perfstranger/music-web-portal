@@ -2540,10 +2540,10 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
-  background-color: #fff;
+  color: #66FFCC;
+  background-color: #34515E;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #66FFCC;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -2552,13 +2552,13 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #66FFCC;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #999;
+  color: #66FFCC;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
@@ -3043,20 +3043,23 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #68B0A3;
+  background-color: #22222A;
+  border-color: #68B0A3;
+  border: 1px solid #68B0A3;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  color: #68B0A3;
+  background-color: #68B0A3;
+  border-color: #68B0A3;
+  border: 1px solid #68B0A3;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #68B0A3;
+  background-color: #22222A;
+  border: 1px solid #68B0A3;
+  border-color: #68B0A3;
 }
 .btn-default:active,
 .btn-default.active,
