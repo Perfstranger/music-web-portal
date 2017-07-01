@@ -305,13 +305,13 @@ li .nav-logo-text .lgrextlink a{
 /*about page css*/
 
 /*slider*/
-.carousel-indicators{
+
+.my-carousel-indicators{
 
 }
 #carousel-image-1{
   margin-top: 6.5%!important;
   margin-left: 7.7%!important;
-  border-right: 2px solid #66FFCC;
 }
 #carousel-caption-1{
   margin-top: -60%!important;
@@ -333,7 +333,16 @@ li .nav-logo-text .lgrextlink a{
   font-size: 1.5em!important;
   margin-right: 48%!important;
   width: 123%!important;
-
+}
+#carousel-image-3{
+  margin-top: 8%!important;
+  margin-left: 23%!important;
+}
+#carousel-caption-3{
+  font-size: 1.5em!important;
+  margin-bottom: -3%!important;
+  margin-left: 29%!important;
+  width: 87%;
 }
 
 
