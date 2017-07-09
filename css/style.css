@@ -26,6 +26,7 @@ div{
 .geolab{
   color: #652D88!important;
 }
+
 /*loader*/
 .before-load{
   display: none;
@@ -195,6 +196,7 @@ div{
         opacity: 1
     }
 }
+
 /*grid system*/
 .grid-bg{
   position: fixed;
@@ -218,12 +220,15 @@ div{
   display: inline-block;
   border-right: .0625em solid #666767;
 }
+
 /*social icons*/
 
 
 /*navigation*/
 .header{
   height: 6.5em;
+/*height: 30px;
+margin-left: 140px;*/
 }
 .glyphicon{
   margin-left: 5%;
@@ -252,6 +257,7 @@ header a{
 #wlogotext{
   font-size: 1.4em;
   border-bottom: 2px solid #66FFCC;
+  font-family: 'Audimat Mono';
 }
 .lgtextlink .logo-text{
   color: #FD9CB1;
@@ -261,9 +267,97 @@ header a{
 }
 .lgtextlink{
   display: inline-block;
-  margin-left: -6%!important;
+  margin-left: -5%!important;
   margin-top: 1.3%!important;
 }
+
+/*glitch attempt_1*/
+
+/*.glitch{
+  color:white;
+  font-size:15px;
+  position:relative;
+  /*width:400px;*/
+  /*margin:0 auto;
+}
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:after{
+  content:attr(data-text);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 red;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation:noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:before{
+  content:attr(data-text);
+  position:absolute;
+  left:-2px;
+  text-shadow:1px 0 blue;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation:noise-anim-2 3s infinite linear alternate-reverse;
+}*/
+
+
+/*glitch attempt_2*/
+
+/*a:hover {
+  font-size: 130px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+  &:before, &:after {
+        display: block;
+        content: '17';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: .8;
+    } &:after {
+        color: #f0f;
+        z-index: -2;
+    } &:before {
+        color: #0ff;
+        z-index: -1;
+    }
+}*/
+
 li .nav-logo-text .lgrextlink a{
   text-decoration: none!important;
 }
