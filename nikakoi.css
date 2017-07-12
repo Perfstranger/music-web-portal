@@ -16,15 +16,16 @@ html{
 }
 body{
     background-color: #22222A !important;
-    position: relative;
+    /*position: relative;*/
     height: 100%;
     font-family: 'Audimat Mono'!important;
 }
-div{
+/*div{
   display: block;
-}
+}*/
 
 .container {
+  display: block;
   border: solid 1px #66FFCC;
   height: 450px;
   width: 880px;
@@ -49,6 +50,7 @@ div{
 
 .about {
   display: inline-block;
+  overflow: hidden;
   width: 470px;
   height: 100%;
 }
@@ -60,11 +62,26 @@ div{
   margin: auto;
 }
 
+.info h1 {
+font-family: 'Nino Mtavruli';
+color: white;
+padding-top: 0px;
+}
+
+.info h6 {
+  color: white;
+}
+
+i {
+  color: #66FFCC;
+  font-size:24px
+}
+
 .tracks {
   border: solid 1px #66FFCC;
   height: 54%;
-  width: 500px;
-  padding-bottom: 5px;
-  vertical-align: middle;
+  /*width: 500px;*/
+  /*padding-bottom: 5px;*/
+  /*vertical-align: middle;*/
   margin: auto;
 }
